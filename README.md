@@ -51,6 +51,12 @@ Output:
 24/01/2024 05:42:24 INFO: filebeat service started.
 24/01/2024 05:42:24 INFO: --- Wazuh dashboard ---
 24/01/2024 05:42:24 INFO: Starting Wazuh dashboard installation.
+24/01/2024 05:42:24 INFO: Starting Wazuh dashboard installation.
+24/01/2024 05:47:17 INFO: Wazuh dashboard installation finished.
+24/01/2024 05:47:17 INFO: Wazuh dashboard post-install configuration finished.
+24/01/2024 05:47:17 INFO: Starting service wazuh-dashboard.
+24/01/2024 05:47:17 INFO: wazuh-dashboard service started.
+
 ```
 ```
 https://computingforgeeks.com/how-to-install-wazuh-server-on-ubuntu/
