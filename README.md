@@ -58,5 +58,16 @@ Output:
 24/01/2024 05:47:17 INFO: wazuh-dashboard service started.
 
 ```
+
+
 ```
+curl -so wazuh-agent-4.3.11.deb https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.3.11-1_amd64.deb && sudo WAZUH_MANAGER='localhost' WAZUH_AGENT_GROUP='default' dpkg -i ./wazuh-agent-4.3.11.deb
+```
+
+```
+sudo systemctl daemon-reload
+sudo systemctl enable wazuh-agent
+sudo systemctl start wazuh-agent
+```
+
 https://computingforgeeks.com/how-to-install-wazuh-server-on-ubuntu/
